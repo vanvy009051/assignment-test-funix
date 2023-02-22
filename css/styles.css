@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info .section-name {
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#info img {
+    width: 150px;
+    height: 150px;
+}
+
+table, td {
+    padding: 0 20px 10px 0;
+    font-size: 14px;
+}
+
+#target .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+#target .section-content {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+#education {
+    margin-bottom: 40px;
+}
+
+#education .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    gap: 150px;
+}
+
+.box .year {
+    min-width: 150px;
+}
+
+#experience {
+    margin-bottom: 40px;
+}
+
+#experience .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#experience .text p {
+    line-height: 1.5;
+}
+
+#activity {
+    margin-bottom: 40px;
+}
+
+#activity .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#skill {
+    margin-bottom: 40px;
+}
+
+#skill .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#skill .section-content .box .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificate {
+    margin-bottom: 40px;
+}
+
+#certificate .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#certificate .section-content .box .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hobby {
+    margin-bottom: 40px;
+}
+
+#hobby .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#hobby .section-content ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    font-size: 14px;
+    gap: 5px;
+}
+
+#project {
+    margin-bottom: 40px;
+}
+
+#project .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#project .section-content .project-text ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    font-size: 14px;
+    line-height: 1.2;
+    gap: 5px;
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+#contact .section-title {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#contact .section-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: -35px;
+    font-size: 14px;
+    line-height: 1.2;
+    gap: 5px;
+}
+
+#contact .link {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #eee;
+}
+
+#contact ul a {
+    text-decoration: none;
+}
